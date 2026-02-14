@@ -67,8 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
             backgroundColor: 'rgba(255, 255, 255, 0.9)',
             padding: '10px 20px',
             borderRadius: '20px',
-            boxShadow: '0 4px 15px rgba(225, 29, 72, 0.2)',
-            color: '#e11d48',
+            boxShadow: '0 4px 15px rgba(14, 165, 233, 0.2)',
+            color: '#0ea5e9',
             fontSize: '1.2rem',
             fontWeight: 'bold',
             zIndex: '1000',
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const count = 200;
         const defaults = {
             origin: { y: 0.7 },
-            colors: ['#e11d48', '#fda4af', '#ffffff']
+            colors: ['#0ea5e9', '#7dd3fc', '#ffffff']
         };
 
         function fire(particleRatio, opts) {

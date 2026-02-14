@@ -1,10 +1,10 @@
 :root {
-    --bg-color: #ffe4e6;
-    --primary-color: #ff6b81;
-    --secondary-color: #fda4af;
-    --text-color: #881337;
+    --bg-color: #e0f2fe;
+    --primary-color: #0ea5e9;
+    --secondary-color: #7dd3fc;
+    --text-color: #0c4a6e;
     --white: #ffffff;
-    --shadow-color: rgba(225, 29, 72, 0.3);
+    --shadow-color: rgba(14, 165, 233, 0.3);
 }
 
 * {
@@ -188,7 +188,7 @@ h1 {
     z-index: 0;
     pointer-events: none;
     opacity: 0.6;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z' fill='%23ffccd5' fill-opacity='0.5'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z' fill='%237dd3fc' fill-opacity='0.5'/%3E%3C/svg%3E");
     animation: slideUp 20s linear infinite;
 }
 
@@ -342,7 +342,7 @@ h1 {
 .corner-decoration {
     position: fixed;
     font-size: 3rem;
-    color: rgba(255, 107, 129, 0.3);
+    color: rgba(14, 165, 233, 0.3);
     z-index: 0;
     animation: pulseHeart 2s infinite;
 }
