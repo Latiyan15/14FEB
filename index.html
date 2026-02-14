@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="sparkles-container"></div>
+    <div class="cloud-container"></div>
+    <div class="corner-decoration corner-top-left">💖</div>
+    <div class="corner-decoration corner-top-right">💖</div>
+    <div class="corner-decoration corner-bottom-left">💖</div>
+    <div class="corner-decoration corner-bottom-right">💖</div>
+    <div class="floating-container">
+        <img src="bubu-bubu-dudu.gif" alt="Cute floating bear" class="floating-char top-left">
+        <img src="bubu-dudu-says-i-love-you-59xut2pyh2xw9dff.gif" alt="Cute floating bear"
+            class="floating-char bottom-right">
+        <img src="d0e5451273c83ccf1abe71c366c08b63.gif" alt="Cute floating bear" class="floating-char bottom-left">
+        <img src="cute-chibi-lick-and-kiss-oe66nci7rck1yyrm.gif" alt="Cute floating bear"
+            class="floating-char top-right">
+        <div class="floating-char" style="top: 50%; left: 10px; width: 80px;"><img src="heart.gif" alt="Heart"
+                style="width: 100%;"></div>
+    </div>
+
+    <div id="proposal-screen" class="screen">
+        <div class="content">
+            <h1 class="bounce">Will you be my Valentine?</h1>
+            <img src="200.gif" alt="Cute asking bear" class="ask-gif">
+            <div class="buttons">
+                <button id="yes-btn" class="btn yes">Yes 💖</button>
+                <button id="no-btn" class="btn no">No 💔</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="success-screen" class="screen hidden">
+        <div class="content">
+            <h1 class="pop-in">Yay! I knew it! 💖</h1>
+            <div class="gif-container">
+                <img src="hug.gif" alt="Cute bear kissing" class="celebrate-gif">
+            </div>
+            <p class="fade-in">Can't wait for our date! 🥰</p>
+        </div>
+    </div>
+
+    <div class="hearts-bg"></div>
+</body>
+
+</html>
