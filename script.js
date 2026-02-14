@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "are manjao naa🥺",
             "are please na yaar😣(momo khilaunga)",
             "kyu aisa krre ho? 😢",
-            "maan jao na cutie 🥰(pasta khilaunga",
+            "maan jao na cutie 🥰(pasta khilaunga)",
             "kitna bhav khaogi? 🙄",
             "please? 🥺👉👈(savana dilaunga)"
         ];
