@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function showRandomMessage() {
         const messages = [
             "are manjao naa🥺",
-            "are please na yaar😣",
+            "are please na yaar😣(momo khilaunga)",
             "kyu aisa krre ho? 😢",
-            "maan jao na cutie 🥰",
+            "maan jao na cutie 🥰(pasta khilaunga",
             "kitna bhav khaogi? 🙄",
-            "please? 🥺👉👈"
+            "please? 🥺👉👈(savana dilaunga)"
         ];
 
         const message = messages[Math.floor(Math.random() * messages.length)];
