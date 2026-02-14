@@ -57,6 +57,26 @@ h1 {
     box-shadow: 0 4px 15px rgba(225, 29, 72, 0.2);
 }
 
+.meme-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.meme-gallery img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.meme-gallery img:hover {
+    transform: scale(1.05);
+}
+
 .buttons {
     display: flex;
     justify-content: center;

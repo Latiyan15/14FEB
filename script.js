@@ -95,10 +95,29 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 
-    // "Yes" button click logic
+    const slide1 = document.getElementById('slide-1');
+    const slide2 = document.getElementById('slide-2');
+    const next1Btn = document.getElementById('next-1-btn');
+    const next2Btn = document.getElementById('next-2-btn');
+
+    // "Yes" button click logic -> Show Slide 1
     yesBtn.addEventListener('click', () => {
+        proposalScreen.style.display = 'none';
+        slide1.classList.remove('hidden');
+        slide1.style.display = 'block';
+    });
+
+    // Slide 1 Next -> Show Slide 2
+    next1Btn.addEventListener('click', () => {
+        slide1.style.display = 'none';
+        slide2.classList.remove('hidden');
+        slide2.style.display = 'block';
+    });
+
+    // Slide 2 Next -> Show Success
+    next2Btn.addEventListener('click', () => {
+        slide2.style.display = 'none';
         fireConfetti();
-        proposalScreen.style.display = 'none'; // Instant hide or transition
         successScreen.classList.remove('hidden');
         successScreen.style.display = 'block';
     });
